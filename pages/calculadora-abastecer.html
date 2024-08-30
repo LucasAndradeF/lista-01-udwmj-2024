@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/script.js" defer></script>
+    <title>Calculadora de Combustível</title>
+</head>
+
+<body>
+    <div class="container">
+        <a href="../index.html" class="container__logo"><span>Gas</span>Alcool</a>
+        <form action="#" class="container__content" onreset="limpa()">
+            <legend class="container__title">Qual vale a pena abastecer?</legend>
+            <label for="veiculo">Veículo</label>
+            <input type="text" id="veiculo" placeholder="Ex.: HB20S">
+            <label for="alcool">Alcool</label>
+            <input type="number" id="alcool" placeholder="R$">
+            <label for="gasolina">Gasolina</label>
+            <input type="number" id="gasolina" placeholder="R$">
+            <div class="container__btn">
+                <button type="reset" class="container__btn-format container__btn-clear" id="reset">Limpar</button>
+                <button type="button" class="container__btn-format container__btn-cta" id="calcular">Calcular</button>
+            </div>
+            <div class="result" id="result"></div>
+            <a href="../index.html" class="link-format">Retornar ao menu anterior</a>
+        </form>
+    </div>
+</body>
+
+</html>
